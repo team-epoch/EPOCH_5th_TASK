@@ -42,6 +42,7 @@
 📍 제출 경로: `EPOCH/5th_TASK/DevelopTeam/weekN/Practice/00기_이름.ipynb` 
 
 > 예시: `EPOCH/5th_TASK/DevelopTeam/week1/Practice/04기_오지송.ipynb`
+> 
 > 예시: `EPOCH/5th_TASK/DevelopTeam/week1/Practice/05기_김현호.ipynb`
 
 ---
