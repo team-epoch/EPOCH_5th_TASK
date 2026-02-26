@@ -1,6 +1,6 @@
 # 2주차 TASK 안내
 
-안녕하세요, EPOCH 4기 Develop Team 여러분! 🎉
+안녕하세요, EPOCH 5기 Develop Team 여러분! 🎉
 
 1주차 대면 세션에 다들 적극적으로 참여해 주셔서 감사드립니다.
 
