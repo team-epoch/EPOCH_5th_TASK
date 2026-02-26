@@ -31,9 +31,9 @@
 
 **⏰ 제출 기한: `3월 3일 (화) 12:00(정오)까지`**
 
-📍 제출 경로: `EPOCH/5th_TASK/DevelopTeam/Practice/week2/00기_이름.ipynb` 
+📍 제출 경로: `EPOCH_5th_TASK/5th_TASK/DevelopTeam/Practice/weekN/00기_이름.ipynb` 
 
-> 예시: `EPOCH/5th_TASK/DevelopTeam/Practice/week2/05기_오지송.ipynb`
+> 예시: `EPOCH_5th_TASK/5th_TASK/DevelopTeam/Practice/week2/05기_오지송.ipynb`
 > 
 
 ---
