@@ -6,7 +6,7 @@
 
 2주차에는 이를 위한 본인의 TASK 데이터셋을 “최종 확정”해 와주신 후, EDA까지 진행해주시면 됩니다!
 
-📍 **제출 경로:** `EPOCH/5th_TASK/DevelopTeam/weekN/Pilot/05기_이름.ipynb`
+📍 **제출 경로:** `EPOCH_5th_TASK/5th_TASK/DevelopTeam/Pilot/weekN/05기_이름.ipynb`
 
 ⏰ **제출 기한:** `03.03(화) 12:00(정오)`
 
