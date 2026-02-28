@@ -9,7 +9,7 @@
 > 
 > ⏰ **제출 기한:**  **`~ 세션 당일 12:00(정오)까지`**
 > 
-> 📍 **제출 경로:** `EPOCH/5th_TASK/DevelopTeam/weekN/Practice/0기_이름.ipynb`
+> 📍 **제출 경로:** `EPOCH_5th_TASK/5th_TASK/DevelopTeam/Practice/weekN/00기_이름.ipynb`
 > 
 - 반드시 한 가지 이상의 질문을 포함할 것 (마크다운 텍스트 또는 주석 형태)
     
@@ -25,7 +25,7 @@
 > 
 > ⏰ **제출 기한:**  **`~ 세션 당일 12:00(정오)까지`**
 > 
-> 📍 **제출 경로:** `EPOCH/5th_TASK/DevelopTeam/weekN/Pilot/0기_이름.ipynb`
+> 📍 **제출 경로:** `EPOCH_5th_TASK/5th_TASK/DevelopTeam/Pilot/weekN/00기_이름.ipynb`
 > 
 
 
@@ -61,7 +61,7 @@
 `발제자`는 담당 챕터에 대한 발제 자료를 `세션 당일 12:00(정오)`까지 노션에 업로드
 > 
 
-**📍 제출 경로:** EPOCH 노션 > 4기 정기 세션 > Build-Up 0th (D팀) > 발제 파일
+**📍 제출 경로:** EPOCH 노션 > 5기 정기 세션 > Build-Up 0th (D팀) > 발제 파일
 
 ---
 
