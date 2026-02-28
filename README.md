@@ -23,10 +23,10 @@
 ## ☝🏻코드 제출 방식
 아래 형식에 맞게 올바른 제출 경로로 제출합니다.
 
-- Research Team 제출 경로: `EPOCH/5th_TASK/ResearchTeam/weekN/00기_이름.md`
+- Research Team 제출 경로: `EPOCH_5th_TASK/5th_TASK/ResearchTeam/weekN/00기_이름.md`
 - Develop Team 제출 경로
-  - 교재 실습 TASK: `EPOCH/5th_TASK/DevelopTeam/weekN/Practice/00기_이름.ipynb`
-  - Pilot Project: `EPOCH/5th_TASK/DevelopTeam/weekN/Pilot/00기_이름.ipynb`
+  - 교재 실습 TASK: `EPOCH_5th_TASK/5th_TASK/DevelopTeam/Practice/weekN/00기_이름.ipynb`
+  - Pilot Project: `EPOCH_5th_TASK/5th_TASK/DevelopTeam/Pilot/weekN/00기_이름.ipynb`
 
 ## ✌🏻제출 기한: '매주 정기 세션 당일 정오'
 - ⏰지각: 정기 세션 당일 정오로부터 1초 이상, 29분 59초 이하
