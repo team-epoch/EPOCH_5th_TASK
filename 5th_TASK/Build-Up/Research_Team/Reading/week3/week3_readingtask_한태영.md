@@ -1,0 +1,103 @@
+**Week0 Reading Task**
+
+**📘 Title**
+
+> ℹ️ (논문 제목)
+>  Neural Collaborative Filtering (NCF)
+He et al., 2017 (WWW)
+---
+
+**📖 Abstract**
+
+> 
+
+기존의 협업 필터링 방식은 내적연산에 의존해 사용자와 아이템의 상호작용을 계산하는데 한계가 있었다. 본 논문은 데이터로부터 복잡한 상호작용 함수를 스스로 학습할 수 있는 신경망 구조를 제시하여 기존 MF 방식의 장점을 가지고 가면서도 더 좋은 성능을 내는것을 보여주었다. 실제 MovieLens와 Pinterest 데이터를 활용해 Negative Sampling과 은닉층 구조의 장점을 수치를 통해 보여준다. 
+
+---
+
+**📚 Background**
+
+ ℹ️ 논문의 주제와 관련된 기존 연구들 및 배경 지식을 정리
+> 
+> 
+ **📍 Related Work 1:(Salakhutdinov et al.) proposed a two-layer Restricted Boltzmann Machines (RBMs)**
+> 
+추천 시스템에 2층 구조의 RBM을 도입해 평점을 모델링함.
+
+한계 : 명시적 데이터에만 집중했다.
+> 
+ **📍 (Wu et al.) presents a collaborative denoising autoencoder (CDAE) for CF with implicit feedback**
+> 
+딥러닝 오토인코더 구조에 유저 노드를 추가한 모델
+
+한계 : 내부적으로 내적 연산에 의존한다.
+> 
+
+---
+
+**🔍 Methods**
+
+✅ **사용된 연구 방법**: 
+기존 MF의 한계점을 극복하기 위해 딥러닝 연산 방식을 도입한 NCF 프레임워크 제안
+
+GMF와 MLP를 앙상블한 NeuMF 제안
+> 
+ **✅ 실험 설계:** 
+
+최적의 모델 성능을 찾기 위한 파라미터 및 하이퍼파라미터 튜닝 과정 상세 공개
+
+은닉층의 깊이가 성능에 미치는 영향 검증
+
+**🔍 Experiments**
+
+ ✅ **데이터셋**: 
+ 
+  MovieLens, Pinterest
+
+**✅ Models:** 
+
+기존 모델들(ItemKNN, BPR, eALS, GMF, MLP ...)
+논문에서 제안한 모델(NeuMF)
+
+**✅ Evaluation Metrics:** 
+
+HR@10, NDCG@10, HR@K, NDCG@K 
+
+**✅ Implementation Details:** 
+
+개발 환경 : Keras 기반 구현
+
+최적화 기법 : 처음 모델을 학습시킬 땐 Adam, Pre-training 튜닝 시에는 SGD 사용
+
+앙상블 비율 : NeuMF 결합 시 GMF와 MLP의 가중치를 (α = 0.5)으로 설정
+
+
+**📖 Conclusion**
+
+ ✅ **Limitation:** 
+ 
+ 보조 정보 활용의 부재: 유저ID 와 아이템 ID에만 의존함.
+
+ 그룹의 공통된 의사결정을 돕는 추천에는 한계가 존재
+
+ 멀티모달 인지지 능력의 부재
+
+> 
+ **✅ Contribution:** 
+ 
+ 현대 추천 시스템의 뼈대 ex.넷플릭스 , 유튜브
+
+ 기존 시스템에서 벗어난 딥러닝 프레임워크 제안
+
+
+**🤔 Question**
+
+ 
+**Q1.NCF에서 사용하는 Log Loss의  정의 와 도입 이유는 무엇인가?**
+
+A. Log Loss는 모델이 오답을 내놓을 때 확률이 정답과 멀어질수록 벌점을 기하급수적으로 높게 때리는 채점 방식. 기존의 단순 점수 차이를 맞추던 방식과 달리, 유저가 아이템을 클릭할지 말지 결정하는 이진 분류 확률을 최적화하기 위해 도입되었음. 
+
+**Q2.사전 학습 후에 Adam 대신 SGD를 쓴이유?**
+
+A. 사전 학습된 파라미터를 가져올 때, Adam이 필요로 하는 과거의 학습 기록 정보는 빼고 숫자만 복사해왔기 때문.
+
