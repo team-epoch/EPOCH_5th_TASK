@@ -10,7 +10,7 @@
 
 > ⏰ **제출 기한 :**  `세션 당일 12:00(정오)`까지 업로드
 > 
-> 📍 제출 경로: EPOCH/5th_TASK/ResearchTeam/weekN/weekN_readingtask_이름.md
+> 📍 제출 경로: EPOCH_5th_TASK/5th_TASK/Build-Up/Reading/weekN/05기_이름.md
 
 - 반드시 한 가지 이상의 질문을 포함할 것
     
@@ -31,7 +31,7 @@
 
 > ⏰ **제출 기한 :**  `세션 당일 12:00(정오)`까지 업로드
 > 
-> 📍 제출 경로: EPOCH/5th_TASK/ResearchTeam/weekN/weekN_codingtask_이름.md
+> 📍 제출 경로: EPOCH_5th_TASK/5th_TASK/Build-Up/Coding/weekN/05기_이름.md
 
 📌 **작성 내용**
 > 다음은 예시 사항으로, 꼭 아래와 같은 내용을 포함하지 않으셔도 괜찮습니다. 자유롭게 진행해주세요 !
