@@ -111,4 +111,5 @@ EPOCH_5th_TASK/5th_TASK/Build-Up/Develop_Team/Practice/week4/05기_오지송.ipy
 
 ## 💡
 실습 과정에서 생긴 작은 궁금증도 좋은 질문이 됩니다.
+
 코드를 실행해보고 왜 이런 결과가 나왔는지 생각해보는 과정을 꼭 남겨주세요!
