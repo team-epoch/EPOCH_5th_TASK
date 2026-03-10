@@ -25,7 +25,7 @@
 ## 진행 방법
 
 - 분석 목적에 맞게 **문제 유형을 정의**합니다.
-> Classification (분류)
+> Classification (분류) </br>
 > Regression (회귀)
 
 
