@@ -12,19 +12,15 @@
 
 **2️⃣ Generative AI & Model 분야; 코드 레퍼런스**
 
-> 메인 코드 레퍼런스: 
+> 메인 코드 레퍼런스: PyTorch 공식 튜토리얼: DCGAN Tutorial
 >
-> 🔗 사이트 링크: 
+> 🔗 사이트 링크: [https://github.com/yihong-chen/neural-collaborative-filtering](https://docs.pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html)
 >
 **3️⃣ 코드 관련 기타 참고 자료**
 >
 > PyTorch-GAN (논문과 가까운 GAN 구현 실습 코드)
 >
 > 🔗 사이트 링크: [https://colab.research.google.com/github/d2l-ai/d2l-en-colab/blob/master/chapter_recommender-systems/neumf.ipynb](https://github.com/eriklindernoren/PyTorch-GAN)
->
-> PyTorch 공식 튜토리얼: DCGAN Tutorial
->
-> 🔗 사이트 링크: [https://github.com/yihong-chen/neural-collaborative-filtering](https://docs.pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html)
 >
 > Pseudo Lab에서 제공하는 GAN 실습 코드
 > 
