@@ -23,10 +23,25 @@
 ## ☝🏻코드 제출 방식
 아래 형식에 맞게 올바른 제출 경로로 제출합니다.
 
-- Research Team 제출 경로: `EPOCH_5th_TASK/5th_TASK/ResearchTeam/weekN/00기_이름.md`
+- Research Team 제출 경로
+  - 논문 Reading TASK: `EPOCH_5th_TASK/5th_TASK/Build_Up/Research_Team/Reading/weekN/00기_이름.md`
+  - 논문 Coding TASK: `EPOCH_5th_TASK/5th_TASK/Build_Up/Research_Team/Coding/weekN/00기_이름.ipynb`
 - Develop Team 제출 경로
-  - 교재 실습 TASK: `EPOCH_5th_TASK/5th_TASK/DevelopTeam/Practice/weekN/00기_이름.ipynb`
-  - Pilot Project: `EPOCH_5th_TASK/5th_TASK/DevelopTeam/Pilot/weekN/00기_이름.ipynb`
+  - 교재 실습 TASK: `EPOCH_5th_TASK/5th_TASK/Build_Up/Develop_Team/Practice/weekN/00기_이름.ipynb`
+  - Pilot Project: `EPOCH_5th_TASK/5th_TASK/Build_Up/Develop_Team/Pilot/weekN/00기_이름.ipynb`
+
+## Commit message 작성 방법
+아래 형식에 맞게 commit message를 입력하여 제출합니다.
+
+- Task 제출
+  - Submit: BuildUp N주차 Task
+
+- 리드미 업데이트
+  - Upload: D팀 BuildUp N주차 Task
+  - Upload: R팀 BuildUp N주차 Task
+
+- 업로드 수정
+  - Update: (무엇을 수정했는지 작성)
 
 ## ✌🏻제출 기한: '매주 정기 세션 당일 정오'
 - ⏰지각: 정기 세션 당일 정오로부터 1초 이상, 29분 59초 이하
